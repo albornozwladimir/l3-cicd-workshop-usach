@@ -3,7 +3,7 @@
   "containerDefinitions": [
       {
           "name": "my-app",
-          "image": "<ACCOUNT>.dkr.ecr.<REGION>.amazonaws.com/<ECR-IMAGE>:latest",
+          "image": "678453439394.dkr.ecr.us-east-1.amazonaws.com/ecr-stack-myapp4aca6506-mqziysrwpkwx:latest",
           "portMappings": [
               {
                   "containerPort": 8081,
@@ -14,7 +14,7 @@
           "essential": true
       }
   ],
-  "family": "678453439394.dkr.ecr.us-east-1.amazonaws.com/ecr-stack-myapp4aca6506-mqziysrwpkwx:latest",
+  "family": "prodappstackprodFargateServiceTaskDefE883E3CC",
   "requiresCompatibilities": [
       "FARGATE"
   ],
