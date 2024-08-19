@@ -1,5 +1,5 @@
 {
-  "executionRoleArn": "arn:aws:iam::<ACCOUNT>:role/<ECS-TASKDEF-EXECUTION-ROLE>",
+  "executionRoleArn": "arn:aws:iam::678453439394:role/prod-app-stack-prodFargateServiceTaskDefExecutionRo-mHAmc59nQiMt",
   "containerDefinitions": [
       {
           "name": "my-app",
@@ -14,7 +14,7 @@
           "essential": true
       }
   ],
-  "family": "<ECS-TASKDEF-FAMILY-NAME>",
+  "family": "678453439394.dkr.ecr.us-east-1.amazonaws.com/ecr-stack-myapp4aca6506-mqziysrwpkwx:latest",
   "requiresCompatibilities": [
       "FARGATE"
   ],
