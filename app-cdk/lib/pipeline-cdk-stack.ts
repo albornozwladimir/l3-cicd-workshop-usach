@@ -79,7 +79,7 @@ export class PipelineCdkStack extends Stack {
           repo: 'l3-cicd-workshop-usach',
           oauthToken: githubToken.secretValue,
           output: sourceOutput,
-          branch: 'main',
+          branch: 'master',
         }),
       ],
     });
